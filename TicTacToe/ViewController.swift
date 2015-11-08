@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     var activePlayer = "X"
     var board = Matrix(rows: 3, columns: 3)
-    
+
     @IBAction func buttonAction(sender: UIButton) {
         if (self.board[sender.tag] == 0) {
             let player = getNextPlayer()
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             }
         }
     }
-    
+
     func checkBoardStatus() {
         // Check rows
         for var i = 0; i < 3; i++ {
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
             endGame(0)
         }
     }
-    
+
     func isFull() -> Bool {
         for var i=0; i<3; i++ {
             for var j=0; j<3; j++ {
@@ -78,24 +78,16 @@ class ViewController: UIViewController {
             alert((score > 0 ? "Noughts" : "Crosses") + " have won!")
         }
     }
-    
+
     func getNextPlayer() -> String {
         activePlayer = activePlayer == "X" ? "0" : "X"
         return activePlayer
     }
-    
+
     func getPlayerValue(t : String) -> Int {
         return t == "X" ? -1 : 1
     }
-        
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
     func cleanBoard() {
         activePlayer = "X"
         board = Matrix(rows: 3, columns: 3)
@@ -110,5 +102,14 @@ class ViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: {(alert: UIAlertAction!) in self.cleanBoard() }))
         presentViewController(alert, animated: true, completion: nil)
     }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+
 }
 
