@@ -15,10 +15,14 @@ class ViewController: UIViewController {
     
     @IBAction func buttonAction(sender: UIButton) {
         let char = getNext()
-        sender.setTitle(char, forState: .Normal)
         sender.enabled = false
-        board[sender.tag - 1] = getValue(char)
-        checkBoardStatus()
+        sender.setTitle(char, forState: .Normal)
+        sender.alpha = 0
+        UIView.animateWithDuration(0.5) { () -> Void in
+            sender.alpha = 1
+            self.board[sender.tag - 1] = self.getValue(char)
+            self.checkBoardStatus()
+        }
     }
     
     func checkBoardStatus() {
@@ -70,7 +74,7 @@ class ViewController: UIViewController {
         if score == 0 {
             alert("It's a draw!")
         } else {
-            alert(score > 0 ? "Noughts wins" : "Crosses wins")
+            alert((score > 0 ? "Noughts" : "Crosses") + " have won!")
         }
     }
     
@@ -95,8 +99,8 @@ class ViewController: UIViewController {
         board = Matrix(rows: 3, columns: 3)
         for var i = 1; i <= 9; i++ {
             if let btn = self.view.viewWithTag(i) as? UIButton {
+                btn.enabled = true;
                 btn.setTitle("", forState: .Normal)
-                btn.enabled = true
             }
         }
     }
