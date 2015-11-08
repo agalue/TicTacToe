@@ -288,6 +288,7 @@
 				0CC8088C1BEFB1F400A58F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
