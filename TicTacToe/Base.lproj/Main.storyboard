@@ -72,7 +72,10 @@
                                     <constraint firstAttribute="height" constant="99" id="MMy-6K-q6r"/>
                                     <constraint firstAttribute="width" constant="99" id="Pyj-kd-b04"/>
                                 </constraints>
-                                <state key="normal" title="A11"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qWZ-4m-bvo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ft-Th-ylU" userLabel="A12">
                                 <rect key="frame" x="138" y="164" width="99" height="99"/>
@@ -81,7 +84,10 @@
                                     <constraint firstAttribute="width" constant="99" id="q0I-j6-WTf"/>
                                     <constraint firstAttribute="height" constant="99" id="uVH-cU-CNy"/>
                                 </constraints>
-                                <state key="normal" title="A12"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Osv-CI-nl7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPB-zb-NdH" userLabel="A13">
                                 <rect key="frame" x="258" y="164" width="99" height="99"/>
@@ -90,7 +96,13 @@
                                     <constraint firstAttribute="height" constant="99" id="90b-NT-Ugh"/>
                                     <constraint firstAttribute="width" constant="99" id="osA-mi-L0M"/>
                                 </constraints>
-                                <state key="normal" title="A13"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l7f-Uc-FJL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g94-u4-YIh" userLabel="A21">
                                 <rect key="frame" x="18" y="284" width="99" height="99"/>
@@ -99,7 +111,10 @@
                                     <constraint firstAttribute="width" constant="99" id="XV2-uL-2mp"/>
                                     <constraint firstAttribute="height" constant="99" id="XZM-92-zAW"/>
                                 </constraints>
-                                <state key="normal" title="A21"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fOK-fa-wue"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbL-jW-MLe">
                                 <rect key="frame" x="138" y="284" width="99" height="99"/>
@@ -108,7 +123,10 @@
                                     <constraint firstAttribute="width" constant="99" id="OeZ-Mh-Ttu"/>
                                     <constraint firstAttribute="height" constant="99" id="zEY-77-5mu"/>
                                 </constraints>
-                                <state key="normal" title="A22"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ye-sm-u7y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKm-zE-jpk" userLabel="A23">
                                 <rect key="frame" x="258" y="284" width="99" height="99"/>
@@ -117,7 +135,10 @@
                                     <constraint firstAttribute="height" constant="99" id="bjb-eT-OJ4"/>
                                     <constraint firstAttribute="width" constant="99" id="hTb-nh-JUu"/>
                                 </constraints>
-                                <state key="normal" title="A23"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bGG-PA-rul"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQy-M7-aAc" userLabel="A32">
                                 <rect key="frame" x="138" y="404" width="99" height="99"/>
@@ -126,7 +147,10 @@
                                     <constraint firstAttribute="height" constant="99" id="15a-ox-gp4"/>
                                     <constraint firstAttribute="width" constant="99" id="oeg-ep-1Dd"/>
                                 </constraints>
-                                <state key="normal" title="A32"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4O-R2-PrP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfT-FI-yWr" userLabel="A33">
                                 <rect key="frame" x="258" y="404" width="99" height="99"/>
@@ -135,7 +159,10 @@
                                     <constraint firstAttribute="height" constant="99" id="Sgw-gk-2Jk"/>
                                     <constraint firstAttribute="width" constant="99" id="prk-of-Dum"/>
                                 </constraints>
-                                <state key="normal" title="A33"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m4w-hM-zB9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MC-J3-HdV" userLabel="A31">
                                 <rect key="frame" x="18" y="404" width="99" height="99"/>
@@ -144,7 +171,10 @@
                                     <constraint firstAttribute="width" constant="99" id="cRa-5r-hQE"/>
                                     <constraint firstAttribute="height" constant="99" id="jQE-fd-VZu"/>
                                 </constraints>
-                                <state key="normal" title="A31"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r6P-3m-FQP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>

@@ -10,6 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var nextChar = "X"
+    
+    @IBAction func buttonAction(sender: UIButton) {
+        sender.setTitle(getNext(), forState: .Normal)
+        sender.enabled = false
+    }
+    
+    func getNext() -> String {
+        nextChar = nextChar == "X" ? "0" : "X"
+        return nextChar
+    }
+        
     override func viewDidLoad() {
         super.viewDidLoad()
     }
