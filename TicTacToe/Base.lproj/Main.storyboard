@@ -14,11 +14,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQi-3h-ppf" userLabel="VL">
-                                <rect key="frame" x="237" y="120" width="5" height="360"/>
+                                <rect key="frame" x="125" y="154" width="5" height="360"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -30,7 +30,7 @@
                                 </constraints>
                             </view>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PkN-x9-0Oz" userLabel="VR">
-                                <rect key="frame" x="357" y="120" width="5" height="360"/>
+                                <rect key="frame" x="245" y="154" width="5" height="360"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -41,8 +41,8 @@
                                     <constraint firstAttribute="height" constant="360" id="XGK-fi-Lb3"/>
                                 </constraints>
                             </view>
-                            <view userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fQF-Im-0vz" userLabel="HT">
-                                <rect key="frame" x="119" y="237" width="360" height="5"/>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fQF-Im-0vz" userLabel="HT">
+                                <rect key="frame" x="7" y="271" width="360" height="5"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -53,8 +53,8 @@
                                     <constraint firstAttribute="height" constant="5" id="oQN-9c-mGy"/>
                                 </constraints>
                             </view>
-                            <view userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rnA-Me-ooz" userLabel="HB">
-                                <rect key="frame" x="119" y="357" width="360" height="5"/>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rnA-Me-ooz" userLabel="HB">
+                                <rect key="frame" x="7" y="391" width="360" height="5"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -66,7 +66,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4D6-j6-GXM" userLabel="A11">
-                                <rect key="frame" x="130" y="130" width="99" height="99"/>
+                                <rect key="frame" x="18" y="164" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="MMy-6K-q6r"/>
@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ft-Th-ylU" userLabel="A12">
-                                <rect key="frame" x="250" y="130" width="99" height="99"/>
+                                <rect key="frame" x="138" y="164" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="99" id="q0I-j6-WTf"/>
@@ -96,7 +96,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPB-zb-NdH" userLabel="A13">
-                                <rect key="frame" x="370" y="130" width="99" height="99"/>
+                                <rect key="frame" x="258" y="164" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="90b-NT-Ugh"/>
@@ -111,7 +111,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g94-u4-YIh" userLabel="A21">
-                                <rect key="frame" x="130" y="250" width="99" height="99"/>
+                                <rect key="frame" x="18" y="284" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="99" id="XV2-uL-2mp"/>
@@ -126,7 +126,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbL-jW-MLe">
-                                <rect key="frame" x="250" y="250" width="99" height="99"/>
+                                <rect key="frame" x="138" y="284" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="99" id="OeZ-Mh-Ttu"/>
@@ -141,7 +141,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKm-zE-jpk" userLabel="A23">
-                                <rect key="frame" x="370" y="250" width="99" height="99"/>
+                                <rect key="frame" x="258" y="284" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="bjb-eT-OJ4"/>
@@ -156,7 +156,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQy-M7-aAc" userLabel="A32">
-                                <rect key="frame" x="250" y="370" width="99" height="99"/>
+                                <rect key="frame" x="138" y="404" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="15a-ox-gp4"/>
@@ -171,7 +171,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfT-FI-yWr" userLabel="A33">
-                                <rect key="frame" x="370" y="370" width="99" height="99"/>
+                                <rect key="frame" x="258" y="404" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="Sgw-gk-2Jk"/>
@@ -186,7 +186,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MC-J3-HdV" userLabel="A31">
-                                <rect key="frame" x="130" y="370" width="99" height="99"/>
+                                <rect key="frame" x="18" y="404" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="99" id="cRa-5r-hQE"/>
@@ -232,6 +232,8 @@
                             <constraint firstItem="VQy-M7-aAc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="120" id="yld-Ts-CgS"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
