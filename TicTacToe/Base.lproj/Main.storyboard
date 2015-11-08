@@ -13,11 +13,11 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" tag="100" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQi-3h-ppf" userLabel="VL">
+                            <view userInteractionEnabled="NO" tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQi-3h-ppf" userLabel="VL">
                                 <rect key="frame" x="125" y="154" width="5" height="360"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="height" constant="360" id="cn6-3h-ODq"/>
                                 </constraints>
                             </view>
-                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PkN-x9-0Oz" userLabel="VR">
+                            <view userInteractionEnabled="NO" tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PkN-x9-0Oz" userLabel="VR">
                                 <rect key="frame" x="245" y="154" width="5" height="360"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -41,7 +41,7 @@
                                     <constraint firstAttribute="height" constant="360" id="XGK-fi-Lb3"/>
                                 </constraints>
                             </view>
-                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fQF-Im-0vz" userLabel="HT">
+                            <view userInteractionEnabled="NO" tag="103" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fQF-Im-0vz" userLabel="HT">
                                 <rect key="frame" x="7" y="271" width="360" height="5"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -53,7 +53,7 @@
                                     <constraint firstAttribute="height" constant="5" id="oQN-9c-mGy"/>
                                 </constraints>
                             </view>
-                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rnA-Me-ooz" userLabel="HB">
+                            <view userInteractionEnabled="NO" tag="104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rnA-Me-ooz" userLabel="HB">
                                 <rect key="frame" x="7" y="391" width="360" height="5"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -65,7 +65,7 @@
                                     <constraint firstAttribute="height" constant="5" id="n2f-aQ-aMV"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4D6-j6-GXM" userLabel="A11">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4D6-j6-GXM" userLabel="A11">
                                 <rect key="frame" x="18" y="164" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
@@ -80,7 +80,7 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qWZ-4m-bvo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ft-Th-ylU" userLabel="A12">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ft-Th-ylU" userLabel="A12">
                                 <rect key="frame" x="138" y="164" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
@@ -95,7 +95,7 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Osv-CI-nl7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPB-zb-NdH" userLabel="A13">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPB-zb-NdH" userLabel="A13">
                                 <rect key="frame" x="258" y="164" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
@@ -110,7 +110,7 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l7f-Uc-FJL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g94-u4-YIh" userLabel="A21">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g94-u4-YIh" userLabel="A21">
                                 <rect key="frame" x="18" y="284" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
@@ -125,7 +125,7 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fOK-fa-wue"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbL-jW-MLe">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbL-jW-MLe" userLabel="A22">
                                 <rect key="frame" x="138" y="284" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
@@ -140,7 +140,7 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ye-sm-u7y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKm-zE-jpk" userLabel="A23">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKm-zE-jpk" userLabel="A23">
                                 <rect key="frame" x="258" y="284" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
@@ -155,7 +155,22 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bGG-PA-rul"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQy-M7-aAc" userLabel="A32">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MC-J3-HdV" userLabel="A31">
+                                <rect key="frame" x="18" y="404" width="99" height="99"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="cRa-5r-hQE"/>
+                                    <constraint firstAttribute="height" constant="99" id="jQE-fd-VZu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r6P-3m-FQP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQy-M7-aAc" userLabel="A32">
                                 <rect key="frame" x="138" y="404" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
@@ -170,7 +185,7 @@
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4O-R2-PrP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfT-FI-yWr" userLabel="A33">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfT-FI-yWr" userLabel="A33">
                                 <rect key="frame" x="258" y="404" width="99" height="99"/>
                                 <animations/>
                                 <constraints>
@@ -183,21 +198,6 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m4w-hM-zB9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MC-J3-HdV" userLabel="A31">
-                                <rect key="frame" x="18" y="404" width="99" height="99"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="99" id="cRa-5r-hQE"/>
-                                    <constraint firstAttribute="height" constant="99" id="jQE-fd-VZu"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="128"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r6P-3m-FQP"/>
                                 </connections>
                             </button>
                         </subviews>

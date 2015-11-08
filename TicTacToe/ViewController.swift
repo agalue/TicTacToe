@@ -14,14 +14,15 @@ class ViewController: UIViewController {
     var board = Matrix(rows: 3, columns: 3)
     
     @IBAction func buttonAction(sender: UIButton) {
-        let player = getNextPlayer()
-        sender.enabled = false
-        sender.setTitle(player, forState: .Normal)
-        sender.alpha = 0
-        UIView.animateWithDuration(0.5) { () -> Void in
-            sender.alpha = 1
-            self.board[sender.tag - 1] = self.getPlayerValue(player)
-            self.checkBoardStatus()
+        if (self.board[sender.tag] == 0) {
+            let player = getNextPlayer()
+            sender.setTitle(player, forState: .Normal)
+            sender.alpha = 0
+            UIView.animateWithDuration(0.5) { () -> Void in
+                sender.alpha = 1
+                self.board[sender.tag] = self.getPlayerValue(player)
+                self.checkBoardStatus()
+            }
         }
     }
     
@@ -96,12 +97,11 @@ class ViewController: UIViewController {
     }
     
     func cleanBoard() {
+        activePlayer = "X"
         board = Matrix(rows: 3, columns: 3)
-        for var i = 1; i <= 9; i++ {
-            if let btn = self.view.viewWithTag(i) as? UIButton {
-                btn.enabled = true;
-                btn.setTitle("", forState: .Normal)
-            }
+        for var i = 0; i < 9; i++ {
+            let btn = view.viewWithTag(i) as! UIButton
+            btn.setTitle("", forState: .Normal)
         }
     }
 
