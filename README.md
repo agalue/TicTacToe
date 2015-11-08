@@ -1,2 +1,2 @@
 # TicTacToe
-A very simple Tic Tac Tow game implemented on Swift 2
+A very simple Tic Tac Toe game implemented on Swift 2
