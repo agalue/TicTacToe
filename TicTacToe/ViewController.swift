@@ -10,17 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var nextChar = "X"
+    var activePlayer = "X"
     var board = Matrix(rows: 3, columns: 3)
     
     @IBAction func buttonAction(sender: UIButton) {
-        let char = getNext()
+        let player = getNextPlayer()
         sender.enabled = false
-        sender.setTitle(char, forState: .Normal)
+        sender.setTitle(player, forState: .Normal)
         sender.alpha = 0
         UIView.animateWithDuration(0.5) { () -> Void in
             sender.alpha = 1
-            self.board[sender.tag - 1] = self.getValue(char)
+            self.board[sender.tag - 1] = self.getPlayerValue(player)
             self.checkBoardStatus()
         }
     }
@@ -78,12 +78,12 @@ class ViewController: UIViewController {
         }
     }
     
-    func getNext() -> String {
-        nextChar = nextChar == "X" ? "0" : "X"
-        return nextChar
+    func getNextPlayer() -> String {
+        activePlayer = activePlayer == "X" ? "0" : "X"
+        return activePlayer
     }
     
-    func getValue(t : String) -> Int {
+    func getPlayerValue(t : String) -> Int {
         return t == "X" ? -1 : 1
     }
         
